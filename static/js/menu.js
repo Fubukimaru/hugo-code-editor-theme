@@ -21,6 +21,7 @@
             target.classList.remove(className);
         }
 
+ 
         element.addEventListener('click', function() {
             var list = target.getElementsByTagName('ul')[0];
             if (target.classList.contains(className)) {
